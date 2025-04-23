@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Login Page{% endblock %}
+
+{% block content %}
+<section style="margin-top: 50px;">
+    <div class="container h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-6">
+                <img src="{{url_for('static',parth='/login.png')}}" alt="Sample image" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                Form
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
