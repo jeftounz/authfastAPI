@@ -20,3 +20,7 @@ def home(request: Request):
 @app.get("/user/signin")
 def login(req:Request):
     return templates.TemplateResponse("/signin.html",{"request":req})
+
+@app.get("/user/signup")
+def login(req:Request):
+    return templates.TemplateResponse("/signup.html",{"request":req})
